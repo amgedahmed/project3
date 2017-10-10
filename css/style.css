@@ -1,0 +1,122 @@
+/* Start Our Frame Work */
+
+body {font-family: 'Open Sans', sans-serif;}
+.container { width:1200px; margin:auto; position:relative;}
+.table { height:100%; display:table;}
+.table-row { display:table-row; height:100%;}
+.text-center { text-align:center;}
+.upper { text-transform:uppercase;}
+.main-color { color:#f7600e;}
+.main-background { background-color:#f7600e;}
+.Ovaerlay { background:rgba(49, 55, 61, .9); width:100%; height:100%;}
+.hidden { display:none;}
+
+/* End Our Frame Work */
+/* Start Header */
+.header { background:url(../Images/tanatos%20header.jpg); background-size:cover; color:#fff;}
+.header .navbar { overflow:hidden; padding:20px 0; position:absolute; top:0; left:0; width:100%;}
+.header .navbar .links { float:right;}
+.header .navbar .links i { margin-left:5px;}
+.header .intro { display:table-cell; vertical-align:middle;}
+.header .intro h1 { margin:0; font-size:50px; font-weight:800;}
+.header .intro p { margin:5px 0 40px; font-size:20px; line-height:1.9; color:#e2e2e2;}
+.header .buttons button { background:transparent; padding:10px 0; width:180px; font-size:14px; color:#fff; border:1px solid #909090; margin:0 8px; border-radius:10px; transition:all .5s ease-in-out;}
+.header .buttons button:hover { background-color:#f7600e; border:1px solid #f7600e;}
+.header .arrow { position:absolute; bottom:0; left:0; width:100%; text-align:center; padding:40px 0;}
+.header .arrow i { border:2px solid #7b7b7b; height:30px; width:30px; line-height:30px; border-radius:50%;}
+/* End Header */
+
+/* Start Features */ 
+.Features { padding:80px 0; overflow:hidden;}
+.Features .Box { width:25%; float:left;}
+.Features .Box i { color:#f7600e; border:1px solid #ccc; width:100px; height:100px; line-height:100px; border-radius:50%; transition:all .5s ease-in-out;}
+.Features .Box i:hover { background-color:#f7600e; color:#fff; border:1px solid #f7600e;}
+.Features .Box h3 {text-transform:uppercase; font-weight:normal; color:#707070;}
+.Features .Box p { line-height:1.5; color:#505050;}
+/* End Features */ 
+
+/* Start Subscribe */ 
+.Subscribe { background:url(../Images/tanatos%20header.jpg); background-size:cover;}
+.Subscribe form { padding:100px 0; margin:auto; text-align:center;}
+.Subscribe form input[type="email"] { width:360px; border:none; border-radius:10px; padding:8px;}
+.Subscribe form button { width:200px; border:none; background-color:#f7600e; border-radius:10px; padding:10px; color:#fff; margin-left:20px; font-size:14px;}
+.Subscribe input { font-size:14px; color:grey;}
+/* End Subscribe */ 
+
+/* Start Our Work */
+.our-work { padding:60px 0;}
+.our-work h2 { font-weight:500; font-size:35px; margin-bottom:0;}
+.our-work p { line-height:2; margin:10px 0 40px;}
+
+.our-work .show-more {background: transparent none repeat scroll 0% 0%; border: 1px solid rgb(204, 204, 204); width: 180px; border-radius: 10px;
+padding: 10px; margin-top: 20px; transition: all .5s ease-in-out; color: #4b4b4b;}
+.our-work .show-more:hover {background-color:#f7600e; color:#fff; border:1px solid #f7600e;}
+.our-work .items-box { overflow:hidden;}
+.our-work .items-box .item { float:left; width:30%; overflow:hidden; margin-bottom:15px; border-radius:10px; position:relative;}
+.our-work .items-box .item:hover .over { display:block;}
+.our-work .items-box .item .over { position:absolute; top:0; left:0; width:100%; height:100%; background-color: rgba(247, 96, 14, .9); color:#fff; transition: all .5s ease-in-out; display:none;}
+.our-work .item .over h4 { font-size:24px; margin-top:80px; margin-bottom:0;}
+.our-work .item .over p { margin-top:10px; line-height:2;}
+.our-work .item .over button { background-color:transparent; border:1px solid #ccc; width:180px; padding:10px; border-radius:10px; transition: all .5s ease-in-out;}
+.our-work .item .over button:hover { background-color:#fff; color:#f7600e; border:1px solid #fff;}
+
+/* End Our Work */
+
+/* Start Testim */
+
+.Testim { background:url(../Images/section-4.jpg); background-size:cover;}
+
+.Testim .Client { padding:60px 0; color:#fff; font-size:20px;}
+.Testim .Client img { border-radius:50%;}
+.Testim .Client p { font-style:italic; line-height:2;}
+.Testim .fa-chevron-right, .Testim .fa-chevron-left { position:absolute; top:50%; color:#999; cursor:pointer;}
+.Testim .fa-chevron-right:hover, .Testim .fa-chevron-left:hover { color:#f7600e;}
+.Testim .fa-chevron-right { right:0;}
+.Testim .fa-chevron-left { left:0;}
+/* End Testim */
+
+/* Start Our Team */
+
+.Our-Team { padding:60px 0;}
+.Our-Team h2 { font-weight:500; font-size:35px; margin-bottom:0;}
+.Our-Team .main { line-height:2; margin:10px 0 40px; color:#666;}
+
+.Our-Team .Team { overflow:hidden;}
+.Our-Team .Team .person { float:left; width:25%; color:#888;}
+.Our-Team .Team .person:hover { color:#555;}
+.Our-Team .Team .person:hover .fa-facebook { background-color:#3b5998;}
+.Our-Team .Team .person:hover .fa-twitter { background-color:#55acee;}
+.Our-Team .Team .person:hover .fa-google-plus { background-color:#dc4e41;}
+.Our-Team .Team .person img { width:200px; height:250px;}
+.Our-Team .Team .person p { font-size:15px;}
+.Our-Team .Team .social-icon i { background-color:#9da1a5; width:30px; height:30px; line-height:30px; color:#fff; border-radius:50%;} 
+/* End Our Team */
+
+/* Start Contact */
+
+.Contact { background:url(../Images/Tanatos-Footer.jpg); background-size:cover;}
+.Contact .Ovaerlay { padding:60px 0; color:#fff;}
+.Contact h2 { font-size:35px;}
+.Contact p { line-height:2;}
+.Contact form { width:700px; margin:50px auto; text-align:center; overflow:hidden;}
+.Contact form input { width:45%; padding:0 10px; height:40px; line-height:40px; border:1px solid #ccc; border-radius:10px;}
+.Contact form input[type="text"] { float:left;}
+.Contact form input[type="email"] { float:right;}
+.Contact form textarea { width:100%; margin-top:20px; padding:10px; height:140px; border:1px solid #ccc; border-radius:10px;}
+.Contact form .info { overflow:hidden; margin-top:30px;}
+.Contact form .info button { float:left; width:200px; border:none; background-color:#f7600e; border-radius:10px; padding:10px; color:#fff; font-size:14px;}
+.Contact form .info .form-icon { float:right; }
+.Contact form .info .form-icon i {background-color:#9da1a5; width:40px; height:40px; line-height:40px; color:#fff; border-radius:50%;}
+.Contact form .info .form-icon .fa-facebook { background-color:#3b5998;}
+.Contact form .info .form-icon .fa-twitter { background-color:#55acee;}
+.Contact form .info .form-icon .fa-google-plus { background-color:#dc4e41;}
+
+/* End Contact */
+
+/* Star Footer */
+
+.Footer { background-color:#3b434c; color:#fff; overflow:hidden; padding:30px 0;}
+.Footer .copyright { float:left;}
+.Footer .design { float:right;}
+
+/* End Footer */
